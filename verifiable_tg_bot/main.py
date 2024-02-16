@@ -59,7 +59,6 @@ async def get_ETH_price_prediction_command(update: Update, context: ContextTypes
 
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Echo the user message."""
-
     await update.message.reply_text(text="Please send one of the commands")
 
 
