@@ -1,5 +1,7 @@
 ## Troth's bot
 
+Hackathon winner for [Starknet Winter hackathon](https://taikai.network/starkware/hackathons/starknet-winter-hackathon/winners?token=NLPU3RY9KA6U7AQO) (3rd place general, 1st place Giza track) 
+
 This project was developed for the Giza's track of the Starknet Winter hackathon. The idea was to demonstrate how Giza actions could be used for Telegram bots and other chat applications, so that async functions (i.e. actions) could process incoming messages to a bot. The bot can be accessed at https://t.me/giza_sentiment_bot.
 
 The use case we explored here was a standard one, namely ETH price prediction. We used the Giza's Dataset loader for fetching token prices, combined with a ![Prophet](https://facebook.github.io/prophet/) model to generate a forecast for the next 5 days. This forecast is produced via a Giza action and finally sent to the user as a message over Telegram.
